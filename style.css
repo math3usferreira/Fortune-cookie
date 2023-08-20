@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62,5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+font-size: 1.6rem;
+animation: gradient 15s ease infinite;
+display: grid;
+place-items: center;
+height: 100vh;
+
+}
+
+body, button, input {
+  font-family: "DM Sans", sans-serif;
+ font-size: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+main {
+  background-color: #FFFFFF;
+  width: 42.8rem;
+box-shadow: 0 1rem 4rem 0 rgba(0, 0, 0, 0.80);
+border-radius: 5px;
+margin: 23.9rem auto;
+display: flex;
+justify-content: center;
+
+}
+
+/* screen1 */
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  text-align: center;
+  color: #34355B;
+  margin-top: 4.8rem;
+  margin-bottom: 1.4rem;
+}
+
+h1, p {
+color:  #34355B;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #34355B;
+  margin-bottom: 2rem;
+}
+
+#cookieClick {
+  width: 30rem;
+    margin-bottom: 6.4rem;
+    background: #FFFFFF;
+}
+
+#cookieClick:hover {
+  animation-name: vibration;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+      cursor: pointer;
+}
+
+@keyframes vibration {
+  0% {margin-left: 0;}
+  25% {margin-left: 1rem;}
+  50% {margin-left: 0;}
+  75% {margin-left: -1rem;}
+  100% {margin-left: 0;}
+}
+
+input, button {
+  border: none;
+  padding: 1.6rem;
+}
+
+input {
+  background-color: #DCE2E9;
+  width: 6rem;
+  border-radius: .4rem 0 0 .4rem;
+}
+
+
+
+/*screen2*/
+
+.screen2 {
+  height: 50rem;
+  width: 30rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #34355B;
+  margin-top: 4.8rem;
+}
+
+#randomPhrase {
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+  color: #000000;
+  padding: 1rem;
+  margin-top: 1.7rem;
+  animation: Uppercase both;
+  animation-duration: 1s;
+  }
+
+@keyframes Uppercase {
+  0% {
+    transform: scale(.4) translateY(400px) ;
+  }100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+#cookieOpen {
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+#btnTry {
+  font-size: 1.5rem;
+  background: #FF9500;
+  border-radius: .4rem;
+  border-style: none;
+  width: 17.4rem;
+  height: 5.2rem;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 5rem;
+  margin-bottom: 4.8rem;
+  cursor: pointer;
+}
+
+#btnTry:hover{
+  background: #ca7600;
+}
+
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
