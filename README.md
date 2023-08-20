@@ -6,7 +6,7 @@
 </p>
 
 ## TEMAS
-Nesse projeto foram utilizados varios temas:
+Nesse projeto foram utilizados vários temas:
 
 - Estrutura de dados HTML
 - Animações com CSS
@@ -18,7 +18,7 @@ Nesse projeto foram utilizados varios temas:
 
 ## Projeto 
 
-A aplicação do biscoito da sorte consiste em ao clicar no biscoito ele gera uma frase motivacional aleatoria.
+A aplicação do biscoito da sorte consiste em ao clicar no biscoito ele gera uma frase motivacional aleatória.
 
 - Caso queira acessar o projeto, clique no link abaixo: 
 
