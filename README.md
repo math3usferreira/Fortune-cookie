@@ -2,7 +2,7 @@
 <p align="center"> Projeto feito inteiramente para RocketSeat</p>
 
 <p align="center">
-  <img alt="Layout do projeto" src=".preview/home.png" width="100%">
+  <img alt="Layout do projeto" src="assets/home.png" width="100%">
 </p>
 
 ## TEMAS
